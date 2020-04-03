@@ -10,19 +10,20 @@
 // ==/UserScript==
 
 (function() {
-  'use strict';
-
-  function process() {
-    var url = window.location.href;
-    var pattern = /^(.*\?id=)(\d*)$/i;
-    var match = url.match(pattern);
-    var appURL = 'steam://url/CommunityFilePage/' + match[2];
+  'use strict';  
+  
+  function URLRedirect() {
+    var origin, destination;
+    origin  = window.location.href;
+    destination = origin.split('?id=')[1];
+    destination =  'steam://url/CommunityFilePage/' + destination;
     
     var dia = confirm("Do you want to open the page in Steam Desktop?");
     if (dia == true) {
-      window.open(appURL);
+      window.open(destination);
     }
   }
 
-  document.addEventListener('DOMContentLoaded', process(), false);
+  document.addEventListener('DOMContentLoaded', URLRedirect(), false);
 })();
+
