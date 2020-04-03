@@ -7,7 +7,7 @@ Currently contains following scripts:
   - Opening Workshop pages linked to the browser to the Steam client
 
 # Install (click links to install)
-* [AniSteam.js](https://raw.githubusercontent.com/Dakraid/MiscellaneousScripts/master/AniStream.js)
-* [Proxer.js](https://raw.githubusercontent.com/Dakraid/MiscellaneousScripts/master/Proxer.js)
-* [YouTubeProperDisLikeBar.js](https://raw.githubusercontent.com/Dakraid/MiscellaneousScripts/master/YouTubeProperDisLikeBar.js)
-* [Steam_BrowserToDesktop.js](https://raw.githubusercontent.com/Dakraid/MiscellaneousScripts/master/Steam_BrowserToDesktop.js)
+* [AniSteam.user.js](https://raw.githubusercontent.com/Dakraid/MiscellaneousScripts/master/AniStream.js)
+* [Proxer.user.js](https://raw.githubusercontent.com/Dakraid/MiscellaneousScripts/master/Proxer.js)
+* [YouTubeProperDisLikeBar.user.js](https://raw.githubusercontent.com/Dakraid/MiscellaneousScripts/master/YouTubeProperDisLikeBar.js)
+* [Steam_BrowserToDesktop.user.js](https://raw.githubusercontent.com/Dakraid/MiscellaneousScripts/master/Steam_BrowserToDesktop.js)
