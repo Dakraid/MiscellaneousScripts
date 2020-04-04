@@ -14,4 +14,5 @@ Currently contains following scripts:
 * [Steam_BrowserToDesktopPreload.user.js](https://raw.githubusercontent.com/Dakraid/MiscellaneousScripts/master/Steam_BrowserToDesktop.user.js)
   - Opening Workshop pages linked to the browser to the Steam client, in contrast to the other version this one executes before the page is fully loaded
 
-## To install a script of choice, simply click on the link. Your userscript extension should take it from there. 
+## To install a script of choice, simply click on the link. 
+## Your userscript extension should take it from there. 
